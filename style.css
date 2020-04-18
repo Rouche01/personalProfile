@@ -1,0 +1,137 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#major-data {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#major-data img {
+    flex-basis: 250px;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+#major-data div {
+    flex-basis: 710px;
+    margin-top: 0;
+    align-items: flex-end;
+
+}
+
+#major-data div p.odd-data {
+    background-color: #2A8947;
+    color: #fff;
+    padding: 16px 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#major-data div .even-data {
+    padding: 16px 36px;
+    margin: 0;
+    font-weight: bold;
+    background-color: #F4B913;
+}
+
+#major-data div span {
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+#about-me {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 16px 32px;
+    margin-top: -10px;
+}
+
+.title {
+    margin-top: 50px;
+}
+
+#about-me p {
+    line-height: 1.5rem;
+}
+
+#contact-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-details div {
+    flex-basis: 50%;
+    justify-self: center;
+}
+
+#contact-me {
+    padding: 40px 32px;
+    border: 1px solid rgba(169, 169, 169, 0.5);
+    border-radius: 5px;
+}
+
+#contact-me form label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+#contact-me form textarea {
+    width: 90%;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+} 
+
+#contact-me form input {
+    width: 80%;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid rgba(169, 169, 169, 0.8);
+}
+
+#contact-me form input[type=submit] {
+    background-color: #2A8947;
+    cursor: pointer;
+    padding: 16px 24px;
+    width: calc(90% + 48px);
+    color: #fff;
+    font-size: 17px;
+}
+
+#contact-me form input[type=submit]:hover {
+    background-color: rgb(35, 116, 59);
+}
+
+#contact-me form input:focus, #contact-me form textarea:focus {
+    outline: none;
+}
+
+#contact-me form input:hover, #contact-me form textarea:hover {
+    border: 1px solid #2A8947;
+}
+
+
+#comments {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    #major-data img {
+        margin: auto;
+    }
+}
+
